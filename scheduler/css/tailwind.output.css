@@ -1282,8 +1282,7 @@ print and (-ms-high-contrast:none) {
 }
 
 .mr-auto {
-  margin-top: auto;
-  margin-bottom: auto
+  margin-right: auto
 }
 
 .-mx-6 {
