@@ -1940,9 +1940,7 @@ print and (-ms-high-contrast:none) {
 }
 
 .theme-dark .dark\:text-purple-300 {
-  --text-opacity: 1;
-  color: #cabffd;
-  color: rgba(202, 191, 253, var(--text-opacity))
+  color: #a3abff;
 }
 
 .theme-dark .dark\:text-purple-400 {
