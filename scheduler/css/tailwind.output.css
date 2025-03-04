@@ -1276,6 +1276,16 @@ print and (-ms-high-contrast:none) {
   margin-right: auto
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto
+}
+
+.mr-auto {
+  margin-top: auto;
+  margin-bottom: auto
+}
+
 .-mx-6 {
   margin-left: -1.5rem;
   margin-right: -1.5rem
