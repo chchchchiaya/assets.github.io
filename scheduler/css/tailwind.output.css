@@ -1442,6 +1442,10 @@ print and (-ms-high-contrast:none) {
   overflow: hidden
 }
 
+.overflow-x-hidden {
+  overflow-x: hidden
+}
+
 .overflow-x-auto {
   overflow-x: auto
 }
