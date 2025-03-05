@@ -9,9 +9,16 @@
 
 <body>
   <iframe width="100%" height="100%"
-    style="height:100vh; width: 100vw;position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;"
-    src="https://script.google.com/macros/s/AKfycbxfb4Jfcf_w7T_NU4zbpm3tTYNgS9wfxmiFjqXv-IBvCq5robi42G4VOW5btTesSrJxLA/exec">
+    style="height:100vh; width: 100vw;position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">
   </iframe>
+  <script>
+    window.onload = function() {
+        var iframe = document.getElementById('myIframe');
+        var currentUrl = window.location.href;
+        var urlParams = currentUrl.substring(currentUrl.indexOf('?'));
+  
+        iframe.src = "https://script.google.com/macros/s/AKfycbxfb4Jfcf_w7T_NU4zbpm3tTYNgS9wfxmiFjqXv-IBvCq5robi42G4VOW5btTesSrJxLA/exec" + urlParams;
+    };
+  </script>
 </body>
-
 </html>
